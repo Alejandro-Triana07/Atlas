@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.seccion-principal{
+    background-image: url(../assets/images/banner-bk.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.descripcion-principal{
+    width: 30%;
+}
+
