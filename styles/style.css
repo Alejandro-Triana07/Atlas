@@ -11,14 +11,234 @@ body {
     overflow-x: hidden;
 }
 
-.seccion-principal{
+header{
     background-image: url(../assets/images/banner-bk.jpg);
-    background-size: cover;
-    height: 100vh;
+    width: 100%;
+    padding: 50px 140px;
     color: white;
 }
 
-.descripcion-principal{
-    width: 30%;
+.letras-arrib{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
 }
+
+
+.logo img{
+    width: 48%;
+}
+nav a{
+    text-decoration: none;
+}
+
+nav span{
+    color: white;
+    font-size: 20px;
+}
+
+.die{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.die p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.boot button{
+    font-size: 15px;
+    background-color: #00ffad;
+    color: #194440;
+    font-weight: 800;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.seccion-caracteristicas h2{
+    margin: 60px;
+    text-align: center;
+    font-size: 44px;
+}
+
+.tarjeta-caracteristicas{
+    width: 30%;
+    text-align: center;
+}
+
+.rejilla-caracteriticas{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 2px;
+}
+
+.conten-vista{
+    background: linear-gradient(170deg, #ffffff 50%, #00ffad 50%);
+    font-size: 18px;
+    display: flex;
+    width: 100%;
+    padding: 10% 15%;
+}
+
+.conten-seg{
+    background-color: #00ffad;
+    font-size: 18px;
+    display: flex;
+    width: 100%;
+    padding: 5px 5px 55px;
+    justify-content: center;
+}
+
+.conten-seg img{
+    width: 90%;
+}
+.conten-vista img{
+    width: 130%;
+}
+
+.txt-vis{
+    padding-bottom: 170px;
+    width: 100%;
+    align-content: left;
+}
+
+.txt-vis h2{
+    font-size: 40px;
+    margin-bottom: 2px;
+    color: #111111;
+}
+
+.txt-vis p{
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.txt-vis button{
+    background-color: #192440;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.txt-seg{
+    padding-left: 100px;
+    width: 40%;
+    text-align: left;
+}
+
+.txt-seg h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #111111;
+}
+
+.txt-seg p{
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+.txt-seg button{
+    background-color: #192440;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.seccion-precios{
+    padding: 90px 0;
+}
+
+.titulo-precios{
+    text-align: center;
+    font-size: 48px;
+    color: #292b2c;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.rejilla-precios{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta-precio{
+    border-radius: 15px;
+    padding: 40px 30px;
+    text-align: center;
+    max-width: 390px;
+}
+
+.tarjeta-precio h3{
+    margin-bottom: 30px;
+}
+
+.precio {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.valor {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.valor-col{
+    font-size: 100px;
+}
+
+.periodo {
+    font-size: 18px;
+}
+
+.periodo-col{
+    font-size: 18px;
+}
+
+.lista-caracteris {
+    padding-bottom: 30px;
+    list-style: none;
+}
+
+.lista-caracteris li {
+    padding: 4px 0;
+    font-size: 0.95rem;
+}
+
+.boton-precio {
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.tarjeta-precio-destacada{
+    background: #192440;
+    padding: 80px ;
+    color: #ffffff;
+    text-align: center;
+}
+
+.boton-precio-col{
+    background: #00ffad;
+    color: #17203e;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: none;
+
+
+}
+
+.mon{
+    font-size: 20px;
+}
+
 
