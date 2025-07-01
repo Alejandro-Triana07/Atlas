@@ -241,4 +241,137 @@ nav span{
     font-size: 20px;
 }
 
+.rejilla-logos{
+    padding: 60px 100px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: #eceeef;
+}
 
+.seccion-contac{
+    background-image: url(../assets/images/contact-bk.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 20px; 
+    background-color: rgba(0, 0, 0);
+}
+
+.contenido-contacto{
+    display: flex;
+    padding: 0 50px;
+    color: #ffffff;
+    max-width: 4px;
+}
+
+.contenido-contacto{
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20%;
+}
+
+.contenido-contacto h2{
+    font-size: 35px;
+    line-height: 2;
+}
+
+.descripcion-contac{
+    font-size: 15px;
+    margin-bottom: 6%;
+    width: 200%;
+}
+
+.em{
+    font-size: 15px;
+}
+
+.formulario{
+    max-width: 55%;
+    width: 80%;
+}
+
+.campo-formulario{
+    display: flex;
+    gap: 6%;
+    padding-left: 30%;
+}
+
+.campo-formulario label{
+    color: #00ffab;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.campo-formulario input{
+    background-color: transparent;
+    border: 2px solid #00ffab;
+    padding: 10px 94px;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.campo-formular{
+    display: flex;
+    flex-direction: column;
+    width: 134%;
+    padding-left: 30%;
+}
+
+.campo-formular label{
+    color: #00ffab;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.campo-formular input{
+    background-color: transparent;
+    border: 2px solid #00ffab;
+    padding: 18px 94px;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+.boton-submit{
+    width: 100%;
+    background-color: #00ffab;
+    color: #111111;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+}
+
+.pie-pagina{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #17223b;
+  color: white;
+  padding: 20px 40px;
+}
+
+.contenedor-pie p{
+    font-size: 14px;
+}
+
+.icons-der i{
+    background-color: white;
+    color: #17223b;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.icons-der i {
+  font-size: 16px;
+}
